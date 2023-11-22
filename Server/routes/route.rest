@@ -1,0 +1,24 @@
+POST http://localhost:5000/todos
+Content-Type: application/json
+
+{
+    "title":"project1"
+}
+
+###
+GET http://localhost:5000/todos
+
+
+###
+GET http://loaclhost:5000/todos/655c70435a9d5980c859ecf8
+
+###
+DELETE http://loaclhost:5000/todos/655c70435a9d5980c859ecf8
+
+###
+PATCH http://localhost:5000/todos/655c7bb56dd4907aa1c068b7
+Content-Type: application/json
+
+{
+    "title" : "project2"
+}
